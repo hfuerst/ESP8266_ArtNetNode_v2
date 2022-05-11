@@ -19,7 +19,7 @@ ESP01:  This disables the second output and puts the DIR_A onto pin GPIO2.
 
 NO_RESET:  This disables the startup "reset of settings" funtionality.  It is not recommended and is only provided for compatibility with devices without GPIO14 available or for those of you with an older version of my hardware.
 
-WEMOS:  This is compiled for Wemos D1 and similar boards.  It uses the 4M (3M SPIFFS) compiler option.
+WEMOS:  This is compiled for Wemos D1 and similar boards, but not D1 mini Pro (16MB).  It uses the 4M (3M SPIFFS) compiler option. 
 
 ## Known Issues & Feedback
 Please see the issues tab for known issues or to submit bugs or suggestions
